@@ -28,13 +28,13 @@ impl Default for Random {
 }
 
 #[derive(Debug)]
-pub struct CompressionMethod(u8);
+pub struct CompressionMethod(pub u8);
 
 #[derive(Debug)]
-pub struct CipherSuite(u8, u8);
+pub struct CipherSuite(pub u8, pub u8);
 
 #[derive(Debug)]
-pub struct ExtensionType(u16);
+pub struct ExtensionType(pub u16);
 
 #[derive(Debug)]
 pub struct Extension {
